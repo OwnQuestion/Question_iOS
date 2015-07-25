@@ -1,0 +1,29 @@
+//
+//  TemplatePrefix.pch
+//  Template-OC
+//
+//  Created by niedi on 15/4/2.
+//  Copyright (c) 2015年 caijingpeng.haowu. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+    #import "Define.h"
+    #import "HWRequestConfig.h"
+    #import "Utility.h"
+    #import "Category.h"
+    #import "UMengHeader.h"
+    #import <Base64/MF_Base64Additions.h>
+    #import "HWRequestConfig.h"
+    #import "HWLog.h"
+    #import <UIImageView+WebCache.h>
+    #import <Masonry.h>
+#import "HWBaseNavigationController.h"
+#import "HWBaseTableViewCell.h"
+#endif

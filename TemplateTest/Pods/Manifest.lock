@@ -1,0 +1,124 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Base64 (1.0.1)
+  - Classy (0.2.4)
+  - ClassyLiveLayout (0.6.0):
+    - Classy
+    - Masonry
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - Masonry (0.6.1)
+  - MBProgressHUD (0.9.1)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - PureLayout (2.0.6)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - ReactiveViewModel (0.3):
+    - ReactiveCocoa (~> 2.4)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SlimeRefresh (0.0.1)
+  - UMengAnalytics (3.4.6)
+  - UMengFeedback (2.3.1)
+  - UMengSocial (4.2.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - Base64 (~> 1.0.1)
+  - Classy (~> 0.2.4)
+  - ClassyLiveLayout (~> 0.6.0)
+  - libextobjc (~> 0.4.1)
+  - Masonry (~> 0.6.1)
+  - MBProgressHUD (~> 0.9.1)
+  - NJKWebViewProgress (~> 0.2.3)
+  - PureLayout (~> 2.0.5)
+  - ReactiveCocoa (= 2.5)
+  - ReactiveViewModel (~> 0.3)
+  - SDWebImage (~> 3.7.2)
+  - SlimeRefresh (~> 0.0.1)
+  - UMengAnalytics (~> 3.4.6)
+  - UMengFeedback (~> 2.2)
+  - UMengSocial (~> 4.2.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Base64: 4924bf3ca6fa559a5161ef717291bd450eb7bd1a
+  Classy: 8d39a27d36865856c8cf21cba5d58fa9252037d9
+  ClassyLiveLayout: a28f6cc404ce8f2f36bf98b628b6c85b8667e105
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  ReactiveViewModel: 58918dcbcec2d3151195ab1ed9163c57a8163999
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SlimeRefresh: c70e370dccfa8d74d4c3ff9702769d2b156a50e6
+  UMengAnalytics: 24c06f0ea07295d2f1c093f0fe12d196fd801ea4
+  UMengFeedback: f073ea4128c20045520870cd481676830a6afefe
+  UMengSocial: 85882abe5b20aa38ad558ece71360e16b5d50909
+
+COCOAPODS: 0.37.2

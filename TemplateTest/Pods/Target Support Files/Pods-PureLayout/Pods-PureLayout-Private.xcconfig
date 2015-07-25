@@ -1,0 +1,6 @@
+#include "Pods-PureLayout.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/PureLayout" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Base64" "${PODS_ROOT}/Headers/Public/Classy" "${PODS_ROOT}/Headers/Public/ClassyLiveLayout" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/NJKWebViewProgress" "${PODS_ROOT}/Headers/Public/PureLayout" "${PODS_ROOT}/Headers/Public/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/ReactiveViewModel" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SlimeRefresh" "${PODS_ROOT}/Headers/Public/UMengAnalytics" "${PODS_ROOT}/Headers/Public/UMengFeedback" "${PODS_ROOT}/Headers/Public/UMengSocial" "${PODS_ROOT}/Headers/Public/libextobjc"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
